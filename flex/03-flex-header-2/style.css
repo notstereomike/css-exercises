@@ -12,6 +12,10 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  border: solid green;
+ 
 }
 
 .profile-image {
@@ -27,6 +31,9 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  border: solid red;
+  justify-items: center;
+  display: flex;
 }
 
 button {
@@ -37,6 +44,24 @@ button {
   padding: 8px 24px;
 }
 
+.left {
+  display: flex;
+  flex-direction: row;
+  border: solid pink;
+  align-items: center;
+  gap: 10px ;
+}
+
+
+.right {
+  display: flex;
+  border: solid blue;
+  align-items: center;
+  gap: 10px;
+  
+   
+}
+
 a {
   /* this removes the line under our links */
   text-decoration: none;
@@ -45,4 +70,15 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 10px ;
+  
+  padding: 0
+;
 }
+
+
+
+/* Added borders around everything 
+and have created flex boxes. May need to
+re look at it all :( */
